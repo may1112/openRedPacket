@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyDialogAnimation">
+        <!--进入 -->
+        <item name="android:windowEnterAnimation">@anim/x_in</item>
+        <!--退出-->
+        <item name="android:windowExitAnimation">@anim/x_out</item>
+        <!--        <item name="android:windowSoftInputMode">adjustPan|adjustResize</item>-->
+    </style>
+</resources>

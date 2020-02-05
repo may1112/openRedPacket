@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">20sp</dimen>
+    <dimen name="titleLabelTextSize">18sp</dimen>
+    <dimen name="textSize20">20sp</dimen>
+    <dimen name="textSize24">24sp</dimen>
+    <dimen name="textSize16">16sp</dimen>
+    <dimen name="textSize18">18sp</dimen>
+    <dimen name="textSize15">15sp</dimen>
+    <dimen name="textSize">14sp</dimen>
+    <dimen name="textSize12">12sp</dimen>
+    <dimen name="textSize10">10sp</dimen>
+    <dimen name="textSize8">8sp</dimen>
+    <dimen name="smallTextSize">6sp</dimen>
+
+    <dimen name="contentTextSize">10sp</dimen>
+    <dimen name="paddingBack">13dp</dimen>
+    <dimen name="paddingBack20">20dp</dimen>
+    <dimen name="paddingBack2">10dp</dimen>
+    <dimen name="padding8dp">8dp</dimen>
+    <dimen name="padding1dp">1dp</dimen>
+
+    <dimen name="red_with">20dp</dimen>
+
+</resources>

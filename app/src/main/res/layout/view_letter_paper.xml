@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8EBB8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="13dp">
+
+        <LinearLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_user_photo"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_user_photo" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/paddingBack"
+                    android:layout_weight="1"
+                    android:text="姓名"
+                    android:textSize="@dimen/textSize12" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/paddingBack"
+                    android:text="时间"
+                    android:textSize="@dimen/textSize12" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/paddingBack"
+                    android:paddingRight="@dimen/paddingBack"
+                    android:paddingBottom="@dimen/paddingBack"
+                    android:text="下一封"
+                    android:textSize="@dimen/textSize12" />
+
+                <TextView
+                    android:id="@+id/btn_reply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="@dimen/paddingBack"
+                    android:paddingTop="@dimen/paddingBack"
+                    android:paddingBottom="@dimen/paddingBack"
+                    android:text="回复"
+                    android:textSize="@dimen/textSize12" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/paddingBack20"
+                android:maxLength="100"
+                android:minHeight="50dp"
+                android:text="内容"
+                android:textColor="@color/red2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
